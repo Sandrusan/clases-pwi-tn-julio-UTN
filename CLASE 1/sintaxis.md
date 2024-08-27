@@ -6,7 +6,7 @@ Las paginas web estan compuestas de elementos, Ejemplo: button para hacer botone
 
 Los elementos se expresan en "Etiquetas"
 
-### Etiquetas
+## Etiquetas
 
 # Que abren y que cierran:
 
@@ -24,7 +24,7 @@ lista:
 -img
 -link
 
-### Atributos: Configuraciones o especificaciones de la etiqueta
+## Atributos: Configuraciones o especificaciones de la etiqueta
 
 input: elemento
 type: atributo
