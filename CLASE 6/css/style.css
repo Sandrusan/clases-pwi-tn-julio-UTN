@@ -1,0 +1,41 @@
+/* Le indico al navegador que el texto dentro de esta etiqueta debe ser interpretado como Hoja de estilos o (css)*/
+        /* Selectores */
+        /* Selector Universal */
+        /* {font-family: Verdana, Geneva, Tahoma, sans-serif;} */
+
+        /* Selector de elementos */
+        /* Tanto el h1 como el h2 tendran estos estilos */
+        /* h1,h2{
+            color:blueviolet ;
+            background-color: black;
+            font-size: 60px;
+        } */
+        /* selector de clase */
+        /* .titulo-especial{
+            color: red;
+            font-size: 50px;
+        } */ 
+        /* Selector de id */
+        /* #titulo-super-especial{
+            color: yellow;
+        } */
+        /*  .subrayado{
+            text-decoration: 1px solid underline yellowgreen;
+        } */
+        /* #placa{
+            color: brown;
+        }  */
+
+        /* PROPIEDADES */
+
+        h2{
+            color: gray;
+            font-size: 24px;
+            letter-spacing: 5px; /* Espaciado entre lineas */
+            word-spacing: 2px;
+
+        }
+
+        p{
+            line-height: 40px; /* Espaciado entre lineas */
+        }           
