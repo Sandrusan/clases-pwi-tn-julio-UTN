@@ -27,15 +27,63 @@
         }  */
 
         /* PROPIEDADES */
-
         h2{
             color: gray;
-            font-size: 24px;
-            letter-spacing: 5px; /* Espaciado entre lineas */
-            word-spacing: 2px;
-
+            font-size: 50px;
+            letter-spacing: 2px; /* Espaciado entre letras */
+            word-spacing: 4px;
+            text-decoration: brown 1px;
+            /* 
+            recibe hasta 6 valores: 
+            color,
+            tamaño, 
+            tipo: solid, wavy, dashed, dotted, double
+            ubicacion: overline, line-through, underline
+            Si pones none, matas el estilo
+             */
+            text-align: center;
+            text-shadow: 
+            2px -2px 2px rgb(39, 39, 240),
+            -2px 2px 2px rgb(179, 175, 175),
+            -4px 4px 2px rgb(15, 192, 41) 
+            ;
+            /* text-shadow
+            x
+            y
+            difuminado/blur
+            color
+            */
         }
-
         p{
-            line-height: 40px; /* Espaciado entre lineas */
-        }           
+            line-height: 20px; /* Espaciado entre lineas */
+            text-align: justify;
+        } 
+        a{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            box-shadow: 1px 1px 6px 1px rgb(89, 88, 88),
+            inset 0 0 3px  white  ;
+        }         
+        
+        .tachado{
+            text-decoration: line-through red solid 1px  ;
+        }
+        /* 
+        propiedades de texto
+        propiedades de background
+        propiedades de border
+        propiedades de box
+        
+        Nos permiten posicionar elementos
+        -float (ya no se usa)
+        -flexbox (SUPER SUPER IMPORTANTE)
+        -grid
+        -position
+
+        Diseño responsivo:
+        Mediaquerys
+
+        Animaciones y transiciones:
+        @keyframes
+        */
